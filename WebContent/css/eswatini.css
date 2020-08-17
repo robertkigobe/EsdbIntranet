@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+
+.img {
+	width: 500px;
+}
+
+.birthdays {
+	border: 2px solid #666;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+	padding-bottom: 150px;
+	background-color: #ff8000;
+}
+
+.headings {
+	font-family: 'Tangerine', serif;
+	font-size: 48px;
+}
+
+.rightNav {
+	padding-top: 50px;
+	padding-left: 200px;
+	padding-right: 200px;
+}

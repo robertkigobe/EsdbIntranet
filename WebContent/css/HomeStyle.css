@@ -1,0 +1,133 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #f29402;
+}
+
+.container {
+	width: 99%;
+	height: 95% margin: 2 auto;
+	background-color: #f8f8ff;
+}
+
+.clear {
+	clear: both;
+}
+
+#mainContent {
+	width: 100%
+}
+
+.mainContent leftNav {
+	float: left;
+	list-style: none;
+	width: 20%;
+	height: 100%;
+	padding: 5px;
+	margin: 5px;
+	background-color: #e8e8e8;
+	box-shadow: 3px 3px 3px #888888;
+}
+
+.mainContent leftNav li {
+	margin: 1px;
+	padding: 1px;
+	text-align: left;
+	width: 100%;
+}
+
+.mainContent leftNav li a:hover {
+	background-color: #ffdf00;
+	transform: scale(1, 1);
+	-webkit-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+}
+
+.mainContent leftNav li a:link, .leftNav li a:visited {
+	background-color: #f29402;
+	color: #003366;
+	display: block;
+	padding: 0.1em;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 0 0.2em 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+.mainContent leftNav a {
+	display: block;
+}
+
+.mainContent rightNav {
+	float: right;
+	list-style: none;
+	width: 78%;
+	height: 100%;
+	padding: 5px;
+	margin: 5px;
+	background-color: #e8e8e8;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	max-height: 60%;
+	overflow-y: auto;
+}
+
+.mainContent rightNav div {
+	background-color: #eee;
+	height: 500px;
+	border: 1px dotted black;
+	overflow: auto;
+	"
+}
+
+.leftPane table {
+	display: block;
+	height: 520px;
+	border-collapse: collapse;
+	overflow-y: scroll; th , td { text-align : left;
+	padding: 8px;
+}
+
+.leftNav li a:hover {
+	background-color: #ffdf00;
+	transform: scale(1, 1);
+	-webkit-transform: scale(1, 1);
+	-ms-transform: scale(2, 1);
+}
+
+.rightPane {
+	float: right;
+	width: 35%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
